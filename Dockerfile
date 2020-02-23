@@ -12,9 +12,6 @@ COPY package*.json ./
 # If you are building your code for production
 RUN npm ci --only=production
 
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
 # Bundle app source
 COPY . .
 
