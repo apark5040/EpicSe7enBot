@@ -1,4 +1,6 @@
-FROM arm64v7/debian:stretch-slim
+FROM debian
+
+RUN uname -a
 
 # Create app directory
 WORKDIR /usr/src/app
