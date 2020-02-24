@@ -1,3 +1,4 @@
+#!/bin/sh
 const Discord = require('discord.js');
 require('dotenv').config();
 const bot = new Discord.Client();
