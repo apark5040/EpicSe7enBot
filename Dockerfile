@@ -1,5 +1,7 @@
 FROM debian
 
+FROM node:10
+
 RUN uname -a
 
 # Create app directory
