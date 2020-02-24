@@ -1,4 +1,4 @@
-FROM node:10
+FROM arm64v7/debian:stretch-slim
 
 # Create app directory
 WORKDIR /usr/src/app
